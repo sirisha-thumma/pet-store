@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pet-store/static/css/main.860b70db.css",
+    "main.js": "/pet-store/static/js/main.79ee1653.js",
+    "index.html": "/pet-store/index.html",
+    "main.860b70db.css.map": "/pet-store/static/css/main.860b70db.css.map",
+    "main.79ee1653.js.map": "/pet-store/static/js/main.79ee1653.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860b70db.css",
+    "static/js/main.79ee1653.js"
+  ]
+}
