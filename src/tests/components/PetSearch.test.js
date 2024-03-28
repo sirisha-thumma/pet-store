@@ -13,7 +13,6 @@ describe('PetSearch', () => {
     const selectElement = screen.getByText(/Find by Status:/i);
     expect(selectElement).toBeInTheDocument();
 
-    expect(screen.getByText(/Select Status/i)).toBeInTheDocument();
     PET_STATUSES.forEach((status) => {
       expect(screen.getByText(status)).toBeInTheDocument();
     });

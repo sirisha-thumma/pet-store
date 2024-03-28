@@ -13,7 +13,6 @@ const PetSearch = ({petStatus, setPetStatus}) => {
         <form className='pet-search-form'>
             <label htmlFor="status">Find by Status:</label>
             <select id="pet-status" value={petStatus} onChange={handleStatusChange}>
-                <option value="">Select Status</option>
                 {PET_STATUSES.map((status, index) => (
                 <option key={index} value={status}>
                     {status}

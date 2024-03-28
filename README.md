@@ -24,12 +24,12 @@ In the project directory, run below commands to start the server :
 
 ### `npm start`
 
-Starts developetment server at localhost:3000, Runs the app in the development mode.\
+Starts developetment server at localhost:3000, Runs the app in the development mode.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode to run tests.\
+Launches the test runner in the interactive watch mode to run tests.
 
 Once it is running 
 
-Navigate to localhost:3000 to access the application and explore.\
+Navigate to localhost:3000 to access the application and explore.

@@ -31,8 +31,7 @@ const Pets = () => {
   }
   
   useEffect(( ) => {
-    const status = petStatus ? petStatus : PET_STATUSES[0];
-    fetchPets(status);
+    fetchPets(petStatus);
   }, [petStatus])
   
   if(petState.isLoading) {
