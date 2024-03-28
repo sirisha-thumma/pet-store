@@ -1,5 +1,7 @@
 Backend API Server Running:
 
+**Prerequisites: DOCKER, docker should be running**
+
 Run Backend API server to access APIs
 
 This App is using Pet Store API from the Swagger/OpenAPI documentation.
@@ -17,10 +19,14 @@ Make sure backend API server is running at localhost:8080
 
 Run React App Locally
 
+**Prerequisites: Nodejs, NPM**
+
 Clone git repository form here https://github.com/sirisha-thumma/pet-store
 ### `git clone https://github.com/sirisha-thumma/pet-store.git`
 
 In the project directory, run below commands to start the server :
+
+### `npm install`
 
 ### `npm start`
 
