@@ -32,12 +32,4 @@ Launches the test runner in the interactive watch mode to run tests.\
 
 Once it is running 
 
-Navigate to localhost:3000/pet-store to access the application and explore.\
-
-
-To Access Application hosted in github pages, navigate to 
-
-https://sirisha-thumma.github.io/pet-store/ and make sure that backend server API running ate localhost:8080 as mentioned above.\
-
-
-
+Navigate to localhost:3000 to access the application and explore.\
