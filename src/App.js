@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import NavBar from './components/NavBar';
+import HomePage from './pages/Home';
+import LoginPage from './pages/Login';
+import { AuthProvider } from './context/AuthContext';
+import RequireAuth from './components/RequireAuth';
+import NoMatchPage from './pages/NoMatch';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <NavBar />
+        <Routes>
+            <Route  path='/' element={<RequireAuth><HomePage /></RequireAuth>} />
+            <Route  path='login' element={<LoginPage />} />
+            <Route path='*' element={<NoMatchPage />} />
+        </Routes>
+    </AuthProvider>
   );
 }
 
